@@ -5,7 +5,6 @@ import Login from '../Pages/Login/Login/Login';
 import Register from '../Pages/Login/Register/Register';
 import Home from '../Pages/Home/Home/Home';
 import Blog from '../Pages/Blog/Blog';
-import Contact from '../Pages/Contact/Contact';
 import ErrorPage from '../Pages/Shared/ErrorPage/ErrorPage';
 import Recipe from '../Pages/Recipe/Recipe';
 import PrivateRoute from './PrivateRoute';
@@ -19,12 +18,13 @@ const router = createBrowserRouter([
         {
             path: '/',
             element: <Home></Home>,
-            loader: ()=> fetch('https://ph-assignment-10-server-side-bakhtiar2000.vercel.app/chef')
+            loader: ()=> fetch('https://asssign10-mohammadmunna1.vercel.app/chef')
         },
         {
             path: ':id',
             element: <PrivateRoute><Recipe></Recipe></PrivateRoute>,
-            loader: ({params}) => fetch(`https://ph-assignment-10-server-side-bakhtiar2000.vercel.app/chef/${params.id}`)
+            loader: ({params}) => fetch(`https://asssign10-mohammadmunna1.vercel.app/chef/${params.id}`)
+            
         },
         {
             path: '/login',
@@ -38,10 +38,7 @@ const router = createBrowserRouter([
             path: '/blog',
             element: <Blog></Blog>
         },
-        {
-            path: '/contact',
-            element: <Contact></Contact>
-        }
+       
       ]
       
     }
