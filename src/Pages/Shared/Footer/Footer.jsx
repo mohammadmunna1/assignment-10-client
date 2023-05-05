@@ -17,12 +17,12 @@ const Footer = () => {
 
             </div>
             <div className='mb-5'>
-            <h3 className="md:text-3xl text-2xl my-5">Message us</h3>
+            <h3 className="md:text-3xl text-1xl my-5">Contact us</h3>
             <form>
                 <input className='my-3 rounded p-3 ' type="text" placeholder="Your Name"/><br/>
                 <input className='my-3 rounded p-3 ' type="email" placeholder="Your Email"/><br/>
                 <textarea className='my-3 rounded p-3 ' cols="35" rows="5" placeholder="Message"></textarea><br/>
-                <input  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded " type="submit" value="Submit"/>
+                <input  className="bg-orange-500 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded " type="submit" value="Submit"/>
             </form>
             </div>
         </div>

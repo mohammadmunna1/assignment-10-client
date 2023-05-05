@@ -15,8 +15,8 @@ const Home = () => {
             <Banner></Banner>
             <div className='home-container'>
                 <div className='text-center my-20 ms-10 me-10'>
-                    <h2 className='md:text-6xl text-4xl  font-semibold text-white'>Our Chefs</h2>
-                    <p className='my-5 text-white md:text-xl text-md mb-16'>Meet our most experienced chefs and explore what they can provide you</p>
+                    <h2 className='md:text-6xl text-4xl  font-semibold text-white'>Our Best Chefs</h2>
+                    <p className='my-5 text-white md:text-xl text-md mb-16'>Holla You r Welcome  to meet our most experienced chefs and explore what they can provide you</p>
                     <div className='chefs lg:px-10'>
                         {
                             chefs.map(chef => <ChefContainer
