@@ -18,9 +18,9 @@ const ChefContainer = ({ chef }) => {
                 <h2 className="card-title text-2xl">{name}</h2>
                 <p className='text-left'>Has {years_of_experience} years of cooking experience</p>
                 <p className='text-left'>Made {recipes.length} different recipes</p>
-                <p className='flex justify-start items-center gap-2'><FaThumbsUp className='text-blue-700' /> {likes}</p>
+                <p className='flex justify-start items-center gap-2'><FaThumbsUp className='text-orange-700' /> {likes}</p>
                 <div className="card-actions justify-end">
-                    <button className="btn btn-primary"><Link to={`${id}`}>View recipes</Link></button>
+                    <button className="btn btn-primary"><Link to={`${id}`}>Click To Show recipes</Link></button>
                 </div>
             </div>
         </div>

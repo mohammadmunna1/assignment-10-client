@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className='bg-sky-700 text-white md:flex justify-around items-start p-5'>
             <div>
-                <p className='md:text-5xl text-3xl mt-5 md:mb-10 mb-5 text-orange-500'>Muksu</p>
+                <p className='md:text-5xl text-3xl mt-5 md:mb-10 mb-5 text-orange-500 font-semibold'>Muksu</p>
               
                 <p className='text-md my-2'>Email: Muksu@mail.com</p>
                 <p className='text-md my-2'>Phone: ++8801568535408</p>
@@ -17,7 +17,7 @@ const Footer = () => {
 
             </div>
             <div className='mb-5'>
-            <h3 className="md:text-3xl text-1xl my-5">Contact us</h3>
+            <h3 className="md:text-3xl text-1xl my-5 text-orange-500 font-semibold">Contact us</h3>
             <form>
                 <input className='my-3 rounded p-3 ' type="text" placeholder="Your Name"/><br/>
                 <input className='my-3 rounded p-3 ' type="email" placeholder="Your Email"/><br/>
