@@ -32,7 +32,7 @@ const Header = () => {
                 <nav className="menu menu-horizontal px-1 gap-5 flex items-center">
                     <ActiveLink to='/'>Home</ActiveLink>
                     
-                    <ActiveLink to='/blog'>Blog</ActiveLink>
+                    <ActiveLink to='/blog'>Blo g</ActiveLink>
                 </nav>
             </div>
             <div className="navbar-end">
