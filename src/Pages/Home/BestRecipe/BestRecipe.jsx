@@ -20,7 +20,7 @@ const bestRecipes = [
         name: 'Pasta',
         img: "./assets/platter-3.png",
         reviews: 500,
-        price: 40
+        price: 50s
     },
 ]
 
@@ -29,7 +29,7 @@ const BestRecipe = () => {
         <div>
             <div className=' my-20 ms-10 me-10'>
                 <h2 className='md:text-6xl text-4xl text-center font-semibold text-white'>Our Top Rated Dishes</h2>
-                <p className='my-5 text-white text-center md:text-xl text-md'>Enjoy the best of Chinese taste </p>
+                <p className='my-5 text-white text-center md:text-xl text-md'>Enjoy Our best of Chinese Food </p>
 
 
                 <div className='best-recipe-container'>
