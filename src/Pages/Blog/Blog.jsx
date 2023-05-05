@@ -16,7 +16,7 @@ const Blog = () => {
             <div ref={ref}>
                 <h2 className='text-xl font-semibold'> i. Tell us the differences between uncontrolled and controlled components. </h2>
                 <p className='mb-5 mt-2'><FaLongArrowAltRight />
-                    Uncontrolled components are those where the state of the input field is managed by the browser, rather than by React or any other JavaScript framework. In other words, the value of the input field is stored internally by the browser, and the application does not have direct control over it. On the other hand, controlled components are those where the state of the input field is managed by React or another JavaScript framework. In this case, the value of the input field is stored in the component's state, and any changes to the input field are reflected in the state.
+                    Uncontrolled components are those where the state of the input field is managed by the browser,  than by React or any other JavaScript framework. In other words, the value of the input field is stored internally by the browser, and the application does not have direct control over it. On the other hand, controlled components are those where the state of the input field is managed by React or another JavaScript framework. In this case, the value of the input field is stored in the component's state, and any changes to the input field are reflected in the state.
                 </p>
 
                 <h2 className='text-xl font-semibold'> ii. How to validate React props using PropTypes? </h2>
