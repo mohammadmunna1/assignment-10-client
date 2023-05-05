@@ -24,12 +24,12 @@ const Blog = () => {
                     propTypes, a built-in react library, is used to validate the type of props passed to a component. To use propTypes, first import the propTypes library. Then, define the prop types for your component by adding a propTypes object to the component. Now, to use the propTypes, simply pass props to your component
                 </p>
 
-                <h2 className='text-xl font-semibold'> ii. Tell us the difference between nodejs and express js. </h2>
+                <h2 className='text-xl font-semibold'> iii. Tell us the difference between nodejs and express js. </h2>
                 <p className='mb-5 mt-2'><FaLongArrowAltRight />
                     Node.js is a runtime environment for executing JavaScript code on the server. On the other hand, Express.js is a web framework built on top of Node.js that provides a set of tools and features to build web applications and APIs
                 </p>
 
-                <h2 className='text-xl font-semibold'> ii. What is a custom hook, and why will you create a custom hook? </h2>
+                <h2 className='text-xl font-semibold'> iv. What is a custom hook, and why will you create a custom hook? </h2>
                 <p className='mb-5 mt-2'><FaLongArrowAltRight />
                     React's custom hook function enables the reuse of stateful code across multiple components. It's a technique for extracting frequently used complex functionality, which facilitates sharing and reusing it across many components of your application. We should create custom hook because it allows us to extract reusable logic, share logic between components, improve code organization
                 </p>
