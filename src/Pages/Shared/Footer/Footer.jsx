@@ -3,7 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <div className='bg-black text-white md:flex justify-around items-start p-5'>
+        <div className='bg-sky-700 text-white md:flex justify-around items-start p-5'>
             <div>
                 <p className='md:text-5xl text-3xl mt-5 md:mb-10 mb-5 text-orange-500'>Muksu</p>
               
